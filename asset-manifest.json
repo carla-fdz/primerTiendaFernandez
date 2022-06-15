@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/primerTiendaFernandez/static/css/main.073c9b0a.css",
+    "main.js": "/primerTiendaFernandez/static/js/main.b41d136b.js",
+    "static/js/787.28cb0dcd.chunk.js": "/primerTiendaFernandez/static/js/787.28cb0dcd.chunk.js",
+    "static/media/logo.svg": "/primerTiendaFernandez/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/primerTiendaFernandez/index.html",
+    "main.073c9b0a.css.map": "/primerTiendaFernandez/static/css/main.073c9b0a.css.map",
+    "main.b41d136b.js.map": "/primerTiendaFernandez/static/js/main.b41d136b.js.map",
+    "787.28cb0dcd.chunk.js.map": "/primerTiendaFernandez/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.b41d136b.js"
+  ]
+}

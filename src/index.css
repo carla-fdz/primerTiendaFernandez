@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+ul{
+  display: flex;
+  flex-direction: row;
+}
+
+li{
+  list-style: none;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+li:hover{
+  background-color: orange;
+}
+
+footer{
+  text-align: center;
+}

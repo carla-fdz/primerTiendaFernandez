@@ -1,13 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import Body from './components/Body';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div>
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          {/* Edit <code>src/App.js</code> and save to reload. */}
           ¡Bienvenido!
         </p>
         <a
@@ -18,7 +19,10 @@ function App() {
         >
           Mi primer tienda online
         </a>
-      </header>
+      </header> */}
+      <Navbar />
+      <Body />
+      <Footer />
     </div>
   );
 }

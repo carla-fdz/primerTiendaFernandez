@@ -1,0 +1,45 @@
+.navbar{
+    background-color: #282c34;
+    color: white;
+}
+
+ul{
+    margin:0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    transition: 0.5s all ease;
+}
+
+li:hover{
+    background-color: lightseagreen;
+
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    height: 52px;
+}
+
+.name{
+    padding: 0 3px;
+    margin-right: 3rem;
+    font-weight: 500;
+}
+
+
+.logo{
+    height: 52px;
+    width: auto;
+    text-align: center;
+    cursor: pointer;
+}

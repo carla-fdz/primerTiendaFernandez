@@ -1,0 +1,12 @@
+.card{
+    height: 200px;
+    width: 150px;
+    background-color: cadetblue;
+    margin: 1rem;
+    display:flex;
+    flex-direction: row; 
+    /* Por alguna razón el flex-direction no funciona */
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10%;
+}

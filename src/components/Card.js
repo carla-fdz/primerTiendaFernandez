@@ -1,10 +1,10 @@
 import './Card.css';
 
-function Card({ product , price , img }) {
+function Card({ product , price }) {
   return (
     <div className="card">
         <div>
-        <img src={img}/>
+        {/* <img src={img}/> */}
         <h4>{product}</h4>
         <p>{price}</p></div>
     </div>

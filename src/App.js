@@ -3,8 +3,6 @@ import Navbar from './components/Navbar';
 import Body from './components/Body';
 import Footer from './components/Footer';
 import Welcome from './components/Welcome';
-import Card from './components/Card';
-import ItemListContainer from './components/ItemListContainer';
 
 function App() {
   return (

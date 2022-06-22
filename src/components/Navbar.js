@@ -6,7 +6,7 @@ function Navbar() {
     <header className='navbar'>
         <nav>
           <ul>
-            <li><a src="../index.html">Home</a></li> 
+            <li><a src="#">Home</a></li> 
             {/* ¿Cómo deberia insertar las páginas? */}
             <li><a href="#">Tienda</a></li>
             <li><a href="#">Contacto</a></li>

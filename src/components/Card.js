@@ -1,12 +1,12 @@
 import './Card.css';
 
-function Card() {
+function Card({ product , price , img }) {
   return (
     <div className="card">
         <div>
-          <h4>Producto</h4>
-          <p>Descripción</p>
-        </div>
+        <img src={img}/>
+        <h4>{product}</h4>
+        <p>{price}</p></div>
     </div>
   );
 }

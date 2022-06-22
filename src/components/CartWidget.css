@@ -1,0 +1,11 @@
+.cartWidget{
+    height: 32px;
+    width: auto; 
+    margin: 0 2rem;
+    cursor: pointer;
+}
+
+.cartWidget:hover{
+    transform: scale(1.05, 1.05);
+    /* transform transitorio */
+}

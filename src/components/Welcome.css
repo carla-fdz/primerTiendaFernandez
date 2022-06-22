@@ -1,0 +1,19 @@
+.welcome{
+    background-color: azure;
+}
+
+h2{
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+.inputBuscar{
+    margin-bottom: 0.5rem;
+}
+
+.logo{
+    height: 60px;
+    width: auto;
+    cursor: pointer;
+}
+

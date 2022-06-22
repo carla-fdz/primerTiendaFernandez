@@ -2,6 +2,9 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Body from './components/Body';
 import Footer from './components/Footer';
+import Welcome from './components/Welcome';
+import Card from './components/Card';
+import ItemListContainer from './components/ItemListContainer';
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
           Mi primer tienda online
         </a>
       </header> */}
+       
+      <Welcome name="Mente Programadora" img='../assets/backgroundComputer.jpeg' placeholder='🔎 Buscar'/>      
+      {/* No funciona la ruta de la imagen */}
       <Navbar />
       <Body />
       <Footer />

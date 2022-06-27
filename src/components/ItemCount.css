@@ -1,0 +1,39 @@
+.itemCount{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0.5rem auto;
+    width: 150px;
+    /* border-width:thin;
+    border-style: solid;
+    border-color: grey; */
+}
+
+.num{
+    margin: 0 2rem;
+    background-color:darkgray;
+    padding: 0 0.5rem;
+    border-radius: 3px;
+}
+
+.buttonOperaciones{
+    font-size: 1rem;
+    color:gray;
+    border-width: thin;
+    border-color: dodgerblue;
+    width: 1.5rem;
+    height: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+    padding: 0 5px;
+    text-align: center;
+}
+
+.buttonOpcion{
+    margin: 0 0.3rem 2rem 0;
+    padding: 3px 8px;
+    border-width: thin;
+    border-color:gray;
+    /* color:; */
+}

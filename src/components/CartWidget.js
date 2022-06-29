@@ -4,7 +4,7 @@ import Cart from '../assets/shopping-cart.png';
 function CartWidget() {
   return (
     <div>
-        <img src={Cart} alt="Logo" class="cartWidget"/>
+        <img src={Cart} alt="Logo" className="cartWidget"/>
     </div>
   );
 }

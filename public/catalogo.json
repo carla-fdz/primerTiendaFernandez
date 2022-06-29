@@ -1,0 +1,38 @@
+[
+    {
+    "nombre": "Combo 1",
+    "stock": "3",
+    "precio": 4000,
+    "descuento": "10%",
+    "categoría": "lenguajes de programación",
+    "id": 1,
+    "img": "" 
+    },
+    {
+    "nombre": "Combo 2",
+    "stock": "7",
+    "precio": 8000,
+    "descuento": "15%",
+    "categoría": "lenguajes de programación",
+    "id": 2,
+    "img": ""
+    },
+    {
+    "nombre": "Combo 3",
+    "stock": "2",
+    "precio": 5000,
+    "descuento": "10%",
+    "categoría": "artículos de computación",
+    "id": 3,
+    "img": ""
+    },
+    {
+    "nombre": "Combo 4",
+    "stock": "6",
+    "precio": 9600,
+    "descuento": "10%",
+    "categoría": "programación",
+    "id": 4,
+    "img": ""
+}
+]

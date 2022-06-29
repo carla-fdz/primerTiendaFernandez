@@ -26,7 +26,7 @@ function ItemCount({ stock, initial=1}){
         <button onClick={reiniciar} className="buttonOpcion">Reiniciar</button>
         <button className="buttonOpcion">Agregar al carrito</button>
         </>
-    )
+    );
 }
 
 export default ItemCount;

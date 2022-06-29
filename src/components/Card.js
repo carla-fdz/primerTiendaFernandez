@@ -6,7 +6,8 @@ function Card({ product , price }) {
         <div>
         {/* <img src={img}/> */}
         <h4>{product}</h4>
-        <p>{price}</p></div>
+        <p>{price}</p>
+        </div>
     </div>
   );
 }

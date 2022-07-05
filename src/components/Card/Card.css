@@ -1,0 +1,28 @@
+.card{
+    height: 400px;
+    width: 250px;
+    background-color: #282c34;
+    margin: 1rem 2rem;
+    display:flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s all ease;
+    /* border-radius: 10%; */
+}
+
+.card:hover{
+    background-color: grey;
+}
+
+.card h3{
+    font-size: 2rem;
+    color: blanchedalmond;
+}
+
+.card p{
+    color: bisque;
+    margin: 0;
+    font-size: 1rem;
+}

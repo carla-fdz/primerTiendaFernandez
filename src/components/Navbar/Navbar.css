@@ -1,6 +1,4 @@
-header{
-    width: 100%;
-}
+
 .navbar{
     background-color: #282c34;
     color: white;
@@ -10,33 +8,38 @@ ul{
     margin:0;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
 }
 
 li{
     list-style: none;
     padding: 1rem 2rem;
+    width: 6rem;
+    text-align: center;
     cursor: pointer;
     transition: 0.5s all ease;
 }
 
 li:hover{
     background-color: lightseagreen;
-
-
 }
 
-a{
+.navbar a{
     text-decoration: none;
     color: white;
+    font-weight: 500;
     height: 52px;
 }
 
-.name{
-    padding: 0 3px;
-    margin-right: 3rem;
-    font-weight: 500;
+.navbar a:hover, 
+.navbar a:active,
+.navbar a.active
+{
+    color:white;
+    padding-bottom: 0.25rem;
+    border-bottom: 2px solid white;
 }
 
 

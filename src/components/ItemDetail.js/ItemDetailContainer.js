@@ -1,7 +1,7 @@
 // import { useEffect } from "react"
 // import ItemDetail from "./ItemDetail"
 //Resolver...
-// function ItemDetailContainer (){
+function ItemDetailContainer (){}
 //     const [info, setInfo] = useState([])
 //     const {id} = useParams()
 //     useEffect (()=>{
@@ -18,4 +18,4 @@
 //     )
 // }
 
-// export default ItemDetailContainer;
+export default ItemDetailContainer;

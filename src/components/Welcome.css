@@ -1,5 +1,7 @@
 .welcome{
-    background-color: azure;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 h2{
@@ -8,8 +10,12 @@ h2{
 }
 
 .inputBuscar{
-    margin-bottom: 0.5rem;
+    width: 8rem;
+    margin: 0.25rem 1rem;
+    /* Buscar en Flex como cambiar posición de un solo hijo */
 }
+
+
 
 .logo{
     height: 60px;

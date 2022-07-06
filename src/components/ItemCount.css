@@ -4,7 +4,8 @@
     justify-content: space-between;
     align-content: center;
     margin: 0.5rem auto;
-    width: 150px;
+    width: 12rem;
+    background-color: darkgrey;
     /* border-width:thin;
     border-style: solid;
     border-color: grey; */
@@ -20,7 +21,8 @@
 .buttonOperaciones{
     font-size: 1rem;
     color:gray;
-    border-width: thin;
+    border-width: 0;
+    background-color: darkgrey;
     border-color: dodgerblue;
     width: 1.5rem;
     height: 1.5rem;

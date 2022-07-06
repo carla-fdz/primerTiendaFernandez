@@ -8,8 +8,4 @@ function CartWidget() {
     </div>
   );
 }
-
-// render(<CartWidget  Cart='../assets/shopping-cart.png'/>, document.getElementById('root'));
-// ¿Qué significa renderizar?
-
 export default CartWidget;

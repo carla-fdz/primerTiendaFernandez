@@ -1,11 +1,12 @@
-import Card from '../Card/Card';
-import './CardList.css';
+import Item from '../Item/Item';
+import './ItemList.css';
 
-function CardList(props) {
+function ItemList(props) {
   return (
-    <div className='cardList'>
+    <div className='cardsList'>
         {props.cards.map((card)=>(
-            <Card 
+            <Item 
+            img={card.img}
             title={card.title}
             description={card.description}
             price={card.price}
@@ -15,4 +16,4 @@ function CardList(props) {
   );
 }
 
-export default CardList;
+export default ItemList;

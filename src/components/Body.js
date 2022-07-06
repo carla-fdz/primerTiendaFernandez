@@ -1,11 +1,11 @@
 import './Body.css';
-import Container from './Container/Container';
+import ItemListContainer from './ItemListContainer/ItemListContainer';
 
 
 function Body() {
   return (
     <section className="body">
-      <Container />
+      <ItemListContainer />
     </section>
   );
 }

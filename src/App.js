@@ -1,8 +1,7 @@
 import './App.css';
-import Navbar from './components/Navbar/Navbar';
+import Navbar from './components/Navbar';
 import Body from './components/Body';
 import Footer from './components/Footer';
-import Welcome from './components/Welcome';
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import Products from './pages/Products/Products';
@@ -14,7 +13,6 @@ import ItemDetail from './components/ItemDetail.js/ItemDetail';
 function App() {
   return (
     <> 
-      <Welcome name="Mente Programadora" placeholder='🔎 Buscar'/>      
       <Navbar />
       <Routes>
         <Route path='/home' element={<Home />}></Route>

@@ -5,7 +5,7 @@
 }
 
 ul{
-    margin:0;
+    margin:0 auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -15,8 +15,9 @@ ul{
 
 li{
     list-style: none;
-    padding: 1rem 2rem;
-    width: 6rem;
+    padding: 1.1rem 2rem;
+    margin: 0 auto;
+    width: 8rem;
     text-align: center;
     cursor: pointer;
     transition: 0.5s all ease;
@@ -30,7 +31,6 @@ li:hover{
     text-decoration: none;
     color: white;
     font-weight: 500;
-    height: 52px;
 }
 
 .navbar a:hover, 
@@ -43,3 +43,11 @@ li:hover{
 }
 
 
+.logo{
+    height: 53px;
+    width: auto;
+    margin: 0 auto;
+    padding: 0;
+    cursor: pointer;
+    list-style: none;
+}
